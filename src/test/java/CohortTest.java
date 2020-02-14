@@ -34,7 +34,6 @@ public class CohortTest {
     public void testAddStudentAndGetStudentsWork(){
         assertEquals(0, emptyCohort.getStudents().size());
         assertEquals(1, cohortWithOne.getStudents().size());
-//        assertEquals(1, cohortWithOne.getStudents().get(0).getId());
     }
 
     @Test
